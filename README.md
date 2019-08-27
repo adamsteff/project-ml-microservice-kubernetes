@@ -25,6 +25,9 @@ In this project we had to operationalize a Machine Learning Microservice API whi
 * Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) 
 * Install [minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/)
 
+### Configure Kubernetes to Run Locally
+* run `minikube start`
+
 ### Running `app.py`
 1. Standalone:  `python app.py`
 2. Run in Docker:  `./run_docker.sh`
